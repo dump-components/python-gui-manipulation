@@ -1,7 +1,7 @@
 import time
 
 from collections import namedtuple
-from .GraphicalUserInterface import GraphicUserInterface
+from .GUI.GraphicalUserInterface import GraphicUserInterface
 
 class GuiManipulation(GraphicUserInterface):
     
