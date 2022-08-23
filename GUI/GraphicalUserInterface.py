@@ -1,6 +1,6 @@
 import pyautogui
 
-class GraphicInterface:
+class GraphicUserInterface:
     
     def __init__(self) -> None:
         self._screen= pyautogui

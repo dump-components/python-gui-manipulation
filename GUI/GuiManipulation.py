@@ -1,9 +1,9 @@
 import time
 
 from collections import namedtuple
-from .graphic_interface import GraphicInterface
+from .GraphicalUserInterface import GraphicUserInterface
 
-class ServiceManipuleScreen(GraphicInterface):
+class GuiManipulation(GraphicUserInterface):
     
     def __init__(self) -> None:
         super().__init__()
