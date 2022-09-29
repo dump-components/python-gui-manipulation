@@ -3,9 +3,9 @@ import pyautogui
 class GraphicUserInterface:
     
     def __init__(self) -> None:
-        self._screen= pyautogui
+        self.__screen = pyautogui
     
     @property
     def screen(self):
-        return self._screen
+        return self.__screen
     
